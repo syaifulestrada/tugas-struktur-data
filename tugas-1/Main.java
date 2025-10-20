@@ -55,11 +55,14 @@ public class Main {
 	 	listAngka.add(44);
 	 	listAngka.add(60);
 	 	listAngka.add(72);
-
-	 // listAngka.addFirst(90);
-	 // listAngka.addLast(80);
-	 listAngka.removeLast();
-	 System.out.println(listAngka);
+	 	
+	 	// listAngka.addFirst(90);
+	 	// listAngka.addLast(80);
+	 	// listAngka.removeLast();
+	 	// listAngka.removeFirst();
+	 	System.out.println(listAngka.getFirst());
+	 	System.out.println(listAngka.getLast());
+	 	// System.out.println(listAngka);
 		
 	}
 
