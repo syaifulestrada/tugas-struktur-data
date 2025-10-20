@@ -15,15 +15,20 @@ public class Main {
 	 // 1. Buatlah sebuah deklarasi variabel dengan tipe data integer yang bernama ‘StrukturBaris’?	
 
 	 int StrukturBaris;
+	 StrukturBaris = 5;
+	 System.out.println(StrukturBaris);
 
 	 // 2. Buatlah sebuah deklarasi variabel dengan tipe data string yang bernama ‘KataBaru’ yang berisi kata ‘Deklarasi tipe data String’?
 
 	 String KataBaru = "Deklarasi tipe data String ";
+	 String kata1 = "Ini adalah kata 1";
+	 System.out.println(KataBaru.concat(kata1));
 
 	 // 3. Buatlah pendeklarasian array satu dimensi dengan nama ‘empatAngka’, tipe data integer, yang berisi angka (07, 10, 20, 23)? 
 
 	 int [] empatAngka = {07, 10, 20, 23};
-	 for(int i = 0; i < empatAngka.length; i++) {
+
+	 for(int i = 0; i < 4; i++) {
 	 	System.out.println(empatAngka[i]);
 	 }
 
@@ -36,8 +41,8 @@ public class Main {
 	 	{"22", "27", "29"},
 	 };
 
-	 for(int row = 0; row < Angka.length; row++) {
-	 	for(int col = 0; col < Angka[row].length; col++) {
+	 for(int row = 0; row < 3; row++) {
+	 	for(int col = 0; col < 3; col++) {
 	 		System.out.println("Row[" + row + "] Col[" + col + "] = " + Angka[row][col]);
 	 	}
 	 }
@@ -50,6 +55,10 @@ public class Main {
 	 	listAngka.add(44);
 	 	listAngka.add(60);
 	 	listAngka.add(72);
+
+	 // listAngka.addFirst(90);
+	 // listAngka.addLast(80);
+	 listAngka.removeLast();
 	 System.out.println(listAngka);
 		
 	}
