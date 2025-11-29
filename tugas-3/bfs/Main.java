@@ -115,3 +115,16 @@ public class Main {
 
 */
 
+
+/*
+    
+    Referensi:
+
+    GeeksforGeeks. (2025, November 1). Difference between BFS and DFS. GeeksforGeeks. https://www-geeksforgeeks-org.translate.goog/dsa/difference-between-bfs-and-dfs/?_x_tr_sl=auto&_x_tr_tl=id&_x_tr_hl=id
+    
+    GeeksforGeeks. (2025, October 25). Breadth first search or BFS for a graph. GeeksforGeeks. https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/
+
+    Bro Code. (2021, November 5). Learn Breadth First Search in 6 minutes ↔️ [Video]. YouTube. https://www.youtube.com/watch?v=7Cox-J7onXw
+
+*/
+
